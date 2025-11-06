@@ -5,6 +5,11 @@
   --font-primary: 'Baloo 2', sans-serif;
   --font-secondary: 'Inter', sans-serif;
 
-  --color-violet: #7c3aed;
-  --color-green: #22c55e;
+  /* 🍬 Cotton Candy Pop Palette */
+  --color-pink: #ffb7d5;
+  --color-lavender: #c084fc;
+  --color-peach: #ffd6a5;
+  --color-blush: #fff1f7;
+  --color-gray-text: #6b7280;
+  --color-heading: #f472b6; /* for large hero text */
 }
