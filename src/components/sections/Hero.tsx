@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
       {/* Content container — keeps side spacing from your layout/container */}
       <div className='relative z-10 max-w-7xl mx-auto px-4 flex flex-col items-center justify-center h-full'>
         {/* Home Text */}
-        <h2 className='text-3xl sm:text-4xl md:text-5xl font-primary mb-9 text-blue-900 text-center max-w-3xl'>
+        <h2 className='text-3xl sm:text-6xl md:text-7xl font-bold font-primary mb-9 text-heading text-center max-w-3xl'>
           Where Sweet Dreams Become Delicious Reality
         </h2>
 
