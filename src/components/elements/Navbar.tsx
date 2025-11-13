@@ -44,7 +44,7 @@ const Navbar = () => {
               className='flex items-center gap-2'
             >
               <img src={logo} alt='cupcake logo' className='w-10 h-10' />
-              <span className='text-xl font-primary font-bold cursor-pointer'>
+              <span className='text-2xl font-logoText md:tracking-widest font-bold cursor-pointer text-pink-500'>
                 Sweet Dreams
               </span>
             </Link>

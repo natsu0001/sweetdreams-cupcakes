@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import 'tailwindcss';
 
 @theme {
   --font-primary: 'Baloo 2', sans-serif;
   --font-secondary: 'Inter', sans-serif;
+  --font-logoText: 'Pacifico', sans-serif;
 
   /* 🍬 Cotton Candy Pop Palette */
   --color-pink: #ffb7d5;
