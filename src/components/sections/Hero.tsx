@@ -28,8 +28,8 @@ const Hero: React.FC = () => {
         </div>
 
         {/* Subtext + Button */}
-        <div className='md:mt-6 mb-12 max-w-md md:max-w-lg flex flex-col text-[#5E6E6E] text-base md:text-lg text-center md:text-left mx-auto md:mx-0'>
-          <p className='text-gray-text'>
+        <div className='md:mt-6 max-w-md md:max-w-lg flex flex-col text-[#5E6E6E] text-base md:text-lg text-center md:text-left mx-auto md:mx-0'>
+          <p className='text-gray-text mt-6 sm:mt-0'>
             Experience the joy of perfectly baked cupcakes, made with love and
             crafted to bring a smile to every celebration.
           </p>
