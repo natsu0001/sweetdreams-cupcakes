@@ -14,7 +14,7 @@ interface StarProductProps {
 
 export const Star: React.FC<StarProductProps> = ({ heading = "Our Star Product" }) => {
 
-  // ⭐ Carousel Data
+  //  Carousel Data
   const slides: StarSlide[] = [
     {
       title: "The Ultimate Vanilla Fudge Cake",
@@ -35,7 +35,7 @@ export const Star: React.FC<StarProductProps> = ({ heading = "Our Star Product" 
       description:
         "Soft, warm donut dipped in rich dark chocolate glaze. A chocolate lover’s paradise!",
       image: "/assets/star3.png",
-      bg: "/assets/chocbg.png",
+      bg: "/assets/choclatebg.png",
     },
   ];
 
@@ -68,7 +68,7 @@ export const Star: React.FC<StarProductProps> = ({ heading = "Our Star Product" 
 
       {/* Heading */}
       <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+        <h2 className="text-3xl md:text-4xl font-bold text-black">
           {heading}
         </h2>
       </div>
@@ -78,10 +78,10 @@ export const Star: React.FC<StarProductProps> = ({ heading = "Our Star Product" 
 
         {/* Text */}
         <div className="flex flex-col justify-center text-center md:text-left">
-          <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+          <h3 className="text-2xl md:text-3xl font-bold text-black mb-4">
             {current.title}
           </h3>
-          <p className="text-base md:text-lg text-gray-600 leading-relaxed">
+          <p className="text-base md:text-lg text-black leading-relaxed">
             {current.description}
           </p>
         </div>
