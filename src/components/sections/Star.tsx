@@ -13,15 +13,9 @@ interface StarProductProps {
   heading?: string;
 }
 
-<<<<<<< HEAD
-export const Star: React.FC<StarProductProps> = ({ heading = "Our Star Product" }) => {
-
-  //  Carousel Data
-=======
 export const Star: React.FC<StarProductProps> = ({
   heading = 'Our Star Products',
 }) => {
->>>>>>> a0a95ebea4da35eb8cb651fc6b6e32e51a23f741
   const slides: StarSlide[] = [
     {
       title: 'The Ultimate Vanilla Fudge Cake',
@@ -40,15 +34,9 @@ export const Star: React.FC<StarProductProps> = ({
     {
       title: 'Chocolate Bliss ',
       description:
-<<<<<<< HEAD
-        "Soft, warm donut dipped in rich dark chocolate glaze. A chocolate lover’s paradise!",
-      image: "/assets/star3.png",
-      bg: "/assets/choclatebg.png",
-=======
         'Soft, warm donut dipped in rich dark chocolate glaze. A chocolate lover’s paradise!',
       image: '/assets/star3.png',
-      bg: '/assets/chocobg.jpg',
->>>>>>> a0a95ebea4da35eb8cb651fc6b6e32e51a23f741
+      bg: '/assets/choclatebg.png',
     },
   ];
 
@@ -76,26 +64,6 @@ export const Star: React.FC<StarProductProps> = ({
           <ChevronLeft size={28} />
         </button>
 
-<<<<<<< HEAD
-      {/* Heading */}
-      <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-black">
-          {heading}
-        </h2>
-      </div>
-
-      {/* Product Content */}
-      <div className="max-w-6xl mx-auto h-full grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-
-        {/* Text */}
-        <div className="flex flex-col justify-center text-center md:text-left">
-          <h3 className="text-2xl md:text-3xl font-bold text-black mb-4">
-            {current.title}
-          </h3>
-          <p className="text-base md:text-lg text-black leading-relaxed">
-            {current.description}
-          </p>
-=======
         <button
           onClick={nextSlide}
           className='absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 p-2 rounded-full shadow-md hover:bg-white'
@@ -108,7 +76,6 @@ export const Star: React.FC<StarProductProps> = ({
           <h2 className='text-4xl md:text-6xl font-extrabold text-pink-500'>
             {heading}
           </h2>
->>>>>>> a0a95ebea4da35eb8cb651fc6b6e32e51a23f741
         </div>
 
         {/* Animated Content */}
