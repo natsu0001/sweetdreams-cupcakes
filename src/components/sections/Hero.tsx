@@ -43,12 +43,12 @@ const Hero: React.FC = () => {
 
       {/* Wavy bottom */}
       <svg
-        className='absolute md:-bottom-5 bottom-0 left-0 w-full scale-y-90 z-50'
+        className='absolute md:-bottom-5 bottom-0 left-0 w-full scale-y-90 z-30'
         xmlns='http://www.w3.org/2000/svg'
         viewBox='0 0 1440 320'
       >
         <path
-          fill='#EC4899' // pink-400 equivalent
+          fill='#EC4899' // pink-500 equivalent
           d='M0,288L48,272C96,256,192,224,288,218.7C384,213,480,235,576,229.3C672,224,768,192,864,197.3C960,203,1056,245,1152,245.3C1248,245,1344,203,1392,181.3L1440,160V320H0Z'
         />
       </svg>

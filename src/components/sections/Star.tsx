@@ -49,7 +49,7 @@ export const Star: React.FC<StarProductProps> = ({
 
   return (
     <section
-      className='relative sm:-mt-32 -mt-24 h-1/3 py-12 px-4 bg-cover bg-center opacity-70 transition-all duration-500 font-primary'
+      className='relative sm:-mt-32 -mt-24 h-1/3 py-20 px-4 bg-cover bg-center opacity-70 transition-all duration-500 font-primary'
       style={{ backgroundImage: `url(${current.bg})` }}
     >
       {/* Blur overlay */}
