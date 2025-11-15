@@ -20,7 +20,6 @@ const Layout = ({ title, children }: Props) => {
       <main className='flex flex-col gap-y-20 md:gap-y-32 overflow-hidden'>
         {children}
       </main>
-
       <Footer />
     </>
   );

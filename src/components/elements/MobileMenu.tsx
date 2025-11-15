@@ -31,7 +31,7 @@ const MobileMenu = () => {
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0, opacity: 0 }}
               transition={{ duration: 0.5, type: 'spring' }}
-              className='absolute -top-2 -right-2 z-[64] w-64 min-h-full rounded-md bg-neutral-50 p-8 flex flex-col origin-top-right'
+              className='absolute -top-2 -right-2 z-[60] w-64 min-h-full rounded-md bg-neutral-50 p-8 flex flex-col origin-top-right'
             >
               <ul className='flex flex-col gap-2 flex-1 mb-2'>
                 {navItems.map((item, key) => (
